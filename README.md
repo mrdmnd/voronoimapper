@@ -21,5 +21,5 @@ Install dependencies first:
 # Usage
 Generate file `output.tsv` in current working directory:
 
-    python voronoi.py `stops.tsv` `rides.tsv`
+    python voronoi.py `stops_example.tsv` `rides_example.tsv`
 
