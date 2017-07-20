@@ -1,3 +1,4 @@
+# Voronoi
 A program that takes two input files (`stops.tsv` and `rides.tsv`) and
 returns a mapping from each ride to its corresponding closest stop.
 
@@ -13,7 +14,12 @@ Output is a file of the form `output.tsv`
 
     Ride ID | Closest Initial Stop | Closest Final Stop
 
-Usage - Generate file `output.tsv` in current working directory:
+# Installation
+Install dependencies first:
+    pip install -r requirements.txt
+
+# Usage
+Generate file `output.tsv` in current working directory:
 
     python voronoi.py `stops.tsv` `rides.tsv`
 
